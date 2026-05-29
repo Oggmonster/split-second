@@ -14,10 +14,12 @@
 
 # production
 /build
+/.react-router
 
 # misc
 .DS_Store
 *.pem
+.dev-server*.log
 
 # debug
 npm-debug.log*

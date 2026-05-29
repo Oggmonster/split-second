@@ -1,0 +1,46 @@
+{
+  "name": "split-second",
+  "version": "0.1.0",
+  "description": "A daily timing-based track and field web game.",
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev",
+    "build": "react-router build",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oggmonster/split-second.git"
+  },
+  "keywords": [
+    "track-and-field",
+    "phaser",
+    "daily-game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oggmonster/split-second/issues"
+  },
+  "homepage": "https://github.com/Oggmonster/split-second#readme",
+  "dependencies": {
+    "@react-router/dev": "^7.16.0",
+    "@react-router/node": "^7.16.0",
+    "@react-router/serve": "^7.16.0",
+    "dexie": "^4.4.3",
+    "isbot": "^5",
+    "lucide-react": "^0.468.0",
+    "phaser": "^4.1.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-router": "^7.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.14"
+  }
+}
